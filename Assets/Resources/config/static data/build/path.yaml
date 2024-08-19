@@ -1,0 +1,15 @@
+# You're editing build config!
+# Static paths to prefabs and other assets
+
+base_camera: "base camera" # base camera
+prefabs: "prefabs" # Resources prefabs directory
+ui_equipment: "ui equipment item" # equipment item prefab
+ui_buff: "ui buff" # buff item prefab
+screen: "screen" # generic ui screen with content gameObject as holder for specific screen entity
+icons: "icons" # equipment icons
+
+desktop_directory: "desktop" # desktop platform Resources home directory
+mobile_directory: "mobile" # mobile platform Resources home directory
+
+scene_environment: "scene environment Variant" # 3D scene environment prefab name
+ui_environment: "ui environment Variant" # 2D ui environment prefab name

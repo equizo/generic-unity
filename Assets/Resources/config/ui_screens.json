@@ -1,0 +1,25 @@
+{
+  "screens": [
+    {
+      "StateType": 1,
+      "Title": "Equipment",
+      "SubTitle": "Equip your character",
+      "Prefab": "equipment - screen Variant",
+      "Analyticsid": "equipment_screen"
+    },
+    {
+      "StateType": 2,
+      "Title": "Image boxing",
+      "SubTitle": "Frame the Image",
+      "Prefab": "boxing - screen Variant",
+      "Analyticsid": "boxing_screen"
+    },
+    {
+      "StateType": 3,
+      "Title": "Abilities",
+      "SubTitle": "Enhance your abilities",
+      "Prefab": "abilities - screen Variant",
+      "Analyticsid": "abilities_screen"
+    }
+  ]
+}

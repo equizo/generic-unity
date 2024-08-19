@@ -1,0 +1,30 @@
+# Various tools and settings to assist during development and debugging
+
+state_machine: # state machine messages
+    print: true
+    color: "#FFA500"
+    start: "auth" # where to start in Play mode: {"auth", "avatar", "story"}; OUT OF SERVICE
+    
+analytics: # analytics messages
+    print: true
+    color: "#00FFFF"
+
+objects_factory: # object factory messages
+    print: true
+    color: "#00FF00"
+
+network: # network messages
+    print: true
+    color: "#86DC3D"
+
+addressable_assets: # addressable assets messages
+    print: true
+    color: "#2F4D2A"
+    
+purchase: # purchase messages
+    print: true
+    color: "#DC3DD5"
+    
+content_unlocked: false # is app content unlocked, OUT OF SERVICE
+
+debug_module: false # add console and fps counter, OUT OF SERVICE

@@ -1,0 +1,164 @@
+{
+  "Weapons": [
+    {
+      "Name": "Infernal Warhammer",
+      "Icon": "equipment_0",
+      "Damage": {
+        "Min": 15,
+        "Max": 25
+      }
+    },
+    {
+      "Name": "Dragon's Claw",
+      "Icon": "equipment_1",
+      "Damage": {
+        "Min": 10,
+        "Max": 20
+      }
+    },
+    {
+      "Name": "Shadowfang Dagger",
+      "Icon": "equipment_2",
+      "Damage": {
+        "Min": 8,
+        "Max": 18
+      }
+    },
+    {
+      "Name": "Ethereal Longsword",
+      "Icon": "equipment_3",
+      "Damage": {
+        "Min": 12,
+        "Max": 22
+      }
+    },
+    {
+      "Name": "Stormbreaker Axe",
+      "Icon": "equipment_4",
+      "Damage": {
+        "Min": 20,
+        "Max": 30
+      }
+    },
+    {
+      "Name": "Celestial Bow",
+      "Icon": "equipment_5",
+      "Damage": {
+        "Min": 14,
+        "Max": 24
+      }
+    },
+    {
+      "Name": "Doombringer Mace",
+      "Icon": "equipment_6",
+      "Damage": {
+        "Min": 18,
+        "Max": 28
+      }
+    },
+    {
+      "Name": "Spectral Scythe",
+      "Icon": "equipment_0",
+      "Damage": {
+        "Min": 16,
+        "Max": 26
+      }
+    },
+    {
+      "Name": "Tempest Staff",
+      "Icon": "equipment_1",
+      "Damage": {
+        "Min": 13,
+        "Max": 23
+      }
+    },
+    {
+      "Name": "Bloodthirsty Saber",
+      "Icon": "equipment_2",
+      "Damage": {
+        "Min": 11,
+        "Max": 21
+      }
+    },
+    {
+      "Name": "Gleaming Spear",
+      "Icon": "equipment_3",
+      "Damage": {
+        "Min": 17,
+        "Max": 27
+      }
+    },
+    {
+      "Name": "Wraithblade",
+      "Icon": "equipment_4",
+      "Damage": {
+        "Min": 19,
+        "Max": 29
+      }
+    },
+    {
+      "Name": "Hellfire Greatsword",
+      "Icon": "equipment_5",
+      "Damage": {
+        "Min": 22,
+        "Max": 32
+      }
+    },
+    {
+      "Name": "Frostbite Trident",
+      "Icon": "equipment_6",
+      "Damage": {
+        "Min": 15,
+        "Max": 25
+      }
+    },
+    {
+      "Name": "Arcane Rapier",
+      "Icon": "equipment_0",
+      "Damage": {
+        "Min": 12,
+        "Max": 22
+      }
+    },
+    {
+      "Name": "Venomous Crossbow",
+      "Icon": "equipment_1",
+      "Damage": {
+        "Min": 14,
+        "Max": 24
+      }
+    },
+    {
+      "Name": "Obsidian Katana",
+      "Icon": "equipment_2",
+      "Damage": {
+        "Min": 16,
+        "Max": 26
+      }
+    },
+    {
+      "Name": "Thunderstrike Warhammer",
+      "Icon": "equipment_3",
+      "Damage": {
+        "Min": 21,
+        "Max": 31
+      }
+    },
+    {
+      "Name": "Soulrender",
+      "Icon": "equipment_4",
+      "Damage": {
+        "Min": 18,
+        "Max": 28
+      }
+    },
+    {
+      "Name": "Divine Halberd",
+      "Icon": "equipment_5",
+      "Damage": {
+        "Min": 20,
+        "Max": 30
+      }
+    }
+  ]
+}

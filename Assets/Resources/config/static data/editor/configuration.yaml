@@ -1,0 +1,16 @@
+screen:
+    fps: 60 # app target frames per second
+    
+configuration_files:
+    home: "config" # home path to configuration files
+    screens: "ui_screens" # ui screens data
+    equipment: "equipment"
+    affixes: "affixes"
+    buffs: "buffs"
+    affixes_category: "affixes_category"
+
+ccd: # addressable assets CDN
+    environment_name: "dev"
+    badge_name: "latest"
+    bucket_id_android: "android"
+    bucket_id_ios: "ios"

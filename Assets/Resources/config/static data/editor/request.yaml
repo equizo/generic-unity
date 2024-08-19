@@ -1,0 +1,17 @@
+# API request end points
+
+auth:
+    create_account_email: "/auth/email/create"
+    create_login_email: "/auth/email/login"
+    auth_refresh_token: "/auth/refresh"
+    trigger_password_reset: "/auth/password/reset"
+    code_exchange: "/auth/code-exchange"
+    update_email: "/auth-update/email/update"
+    update_password: "/auth-update/password/update"
+
+account:
+    state: "/ac/state"
+    terms_accepted: "/ac/terms-accepted"
+    update: "/ac/update"
+    delete: "/ac/delete"
+    support: "/ac/support"

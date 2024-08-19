@@ -1,0 +1,24 @@
+{
+  "AffixCategories": [
+    {
+      "Name": "Legendary",
+      "Color": "#FFD700",
+      "DropRate": 0.01
+    },
+    {
+      "Name": "Rare",
+      "Color": "#00FF00",
+      "DropRate": 0.05
+    },
+    {
+      "Name": "Magic",
+      "Color": "#0000FF",
+      "DropRate": 0.15
+    },
+    {
+      "Name": "Normal",
+      "Color": "#FFFFFF",
+      "DropRate": 0.79
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Buffs": [
+    {
+      "Name": "Strength",
+      "Id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "Icon": "buff_0"
+    },
+    {
+      "Name": "Shield",
+      "Id": "9c8e6e77-18b7-4d2b-b3bc-10c01cc13c87",
+      "Icon": "buff_1"
+    },
+    {
+      "Name": "Wings",
+      "Id": "59b7b89b-2a0d-4a9d-851f-5cb4e2c6a13e",
+      "Icon": "buff_2"
+    },
+    {
+      "Name": "Regeneration",
+      "Id": "aee1a88b-1e60-4b6b-9e90-57e4778b5432",
+      "Icon": "buff_3"
+    },
+    {
+      "Name": "Agility",
+      "Id": "b56a8f7b-7982-4c49-ae1e-b13a1eb5e431",
+      "Icon": "buff_4"
+    },
+    {
+      "Name": "Wisdom",
+      "Id": "d3c67c4a-9b1c-40f4-b8d2-8871a2e14c8c",
+      "Icon": "buff_5"
+    },
+    {
+      "Name": "Speed",
+      "Id": "ec5d5a9b-0e78-44a3-90a7-8ebaf12d9a02",
+      "Icon": "buff_6"
+    },
+    {
+      "Name": "Endurance",
+      "Id": "fc3d7e93-4d8b-4eb4-bf76-e7634c9cb929",
+      "Icon": "buff_7"
+    },
+    {
+      "Name": "Vision",
+      "Id": "fa6e48a2-5b62-49ae-b3ec-8fb6491d7033",
+      "Icon": "buff_8"
+    },
+    {
+      "Name": "Ferocity",
+      "Id": "bc9b3be7-1d8a-4711-9479-0c02957a4f18",
+      "Icon": "buff_9"
+    }
+  ]
+}

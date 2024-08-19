@@ -1,0 +1,104 @@
+{
+  "Affixes": [
+    {
+      "Name": "Flaming",
+      "Description": "Adds fire damage to attacks or spells. Example: +10 Fire Damage",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Freezing",
+      "Description": "Adds cold damage and/or chance to freeze enemies. Example: +15 Cold Damage or 5% Chance to Freeze",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Shock",
+      "Description": "Adds lightning damage and/or chance to stun enemies. Example: +12 Lightning Damage or 3% Chance to Stun",
+      "Category": "Legendary"
+    },
+    {
+      "Name": "Poisoned",
+      "Description": "Adds poison damage over time. Example: +20 Poison Damage Over 5 Seconds",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Holy",
+      "Description": "Adds holy damage and/or bonus against undead enemies. Example: +8 Holy Damage or +10% Damage to Undead",
+      "Category": "Legendary"
+    },
+    {
+      "Name": "Shadow",
+      "Description": "Adds shadow damage and/or bonus against light enemies. Example: +10 Shadow Damage or +5% Damage to Light Enemies",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Vampiric",
+      "Description": "Provides life steal on hit. Example: 5% Life Steal",
+      "Category": "Legendary"
+    },
+    {
+      "Name": "Fortified",
+      "Description": "Increases defense or resistance. Example: +25 Armor or +10% Resistance to All Elements",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Speedy",
+      "Description": "Increases attack or movement speed. Example: +10% Attack Speed or +15% Movement Speed",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Regenerating",
+      "Description": "Provides health or mana regeneration. Example: +5 Health Regeneration Per Second or +3 Mana Regeneration Per Second",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Critical",
+      "Description": "Increases chance of critical hits or critical damage. Example: +5% Critical Hit Chance or +20% Critical Hit Damage",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Ethereal",
+      "Description": "Provides bonus damage or defense against physical attacks. Example: +10% Damage Against Physical Attacks or +15% Physical Resistance",
+      "Category": "Legendary"
+    },
+    {
+      "Name": "Arcane",
+      "Description": "Adds arcane damage and/or bonus to magic attacks. Example: +15 Arcane Damage or +5% Bonus to Magic Damage",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Enchanted",
+      "Description": "Provides bonus effects to spells or abilities. Example: +10% Spell Power or +5% Mana Efficiency",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Resilient",
+      "Description": "Increases overall durability or reduces incoming damage. Example: +20% Damage Reduction or +15% Overall Damage Resistance",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Life",
+      "Description": "Adds maximum life or health points. Example: +50 Maximum Life or +10% Increased Life",
+      "Category": "Normal"
+    },
+    {
+      "Name": "Mana",
+      "Description": "Adds maximum mana or mana points. Example: +30 Maximum Mana or +12% Increased Mana",
+      "Category": "Normal"
+    },
+    {
+      "Name": "Elemental",
+      "Description": "Provides bonus damage to a specific elemental type. Example: +10% Damage to Fire Enemies or +15% Damage to Cold Enemies",
+      "Category": "Rare"
+    },
+    {
+      "Name": "Lucky",
+      "Description": "Increases chance of finding rare items or gold. Example: +5% Magic Find or +10% Gold Find",
+      "Category": "Magic"
+    },
+    {
+      "Name": "Guardian",
+      "Description": "Provides a chance to shield or block damage. Example: 5% Chance to Block All Damage or +10% Shield Effectiveness",
+      "Category": "Legendary"
+    }
+  ]
+}
