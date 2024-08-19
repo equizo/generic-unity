@@ -48,7 +48,7 @@ Game and Menu state machine diagrams
 ![menu](https://github.com/user-attachments/assets/9d71820d-fa2b-49c2-8b38-cc0cd279202f)
 
 ## Platform-Dependency Solution
-At an early stage, _PlatformDependentServices_ determines the device type and sets corresponding values, such as the root folder for prefab paths. For convenience, all assets are stored in _Resources_. However, the project allows for moving them to predefined storage, such as scriptable objects or addressable assets, so no assets from another platform are included in the build.
+At an early stage, _PlatformDependentServices_ determines the device type and sets corresponding values, such as the root folder for prefab paths. All assets are stored in _Resources_. However, the project allows for moving them to predefined storage, such as scriptable objects or addressable assets, so no assets from another platform are included in the build. Loading assets from addressable assets would require adding throbber to ui or any other gate screen, so for the simplification purposes synchronous assets loading is assumed.
 
 The folder hierarchy is consistent across platforms. Prefabs themselves can have different structures, assets, and components. The system does not rely on checking which prefab to spawn as long as the prefab exists and corresponding scripts are found. This minimizes runtime branching and allows for a streamlined flow.
 
@@ -71,6 +71,11 @@ To showcase the flexibility of the UI, which is dynamically constructed by the d
 ![Unity_ny2mW2GYqF](https://github.com/user-attachments/assets/6f4eee89-7b5f-4a0a-9c6a-77271d46e17d)
 
 Navigation controls are different for each platform – ui buttons for standalone and swipe gestures for mobile.
+
+## Code Structure and Dependency Management Overview
+Most types in the codebase are implemented as plain C# classes. Classes that inherit from _MonoBehaviour_ are used when an editor link to a component is necessary. The _GameBootstrapper_ file is responsible for updating the game state machine with delta time (dt).
+
+Static facade usage is employed to access static data files. To avoid implicit dependencies introduced by other static class usages, dependency injection (DI) is preferred. DI not only makes dependencies explicit and manageable but also helps in identifying overloaded injections and responsibilities that may be too high.
 
 ##  License
 MIT
