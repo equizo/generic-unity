@@ -40,7 +40,6 @@ namespace infrastructure.gameplay.equipment
           StaticPaths.Prefab(StaticPaths.UiEquipment),
           _screenContent.ScreenSpecificContent);
         uiEquipmentItem.Init(equipmentItems[i], _cachedSpritesProvider, _gameObjectsFactoryService);
-        uiEquipmentItem.CanvasGroup.alpha = 0;
         uiEquipmentItems.Add(uiEquipmentItem);
       }
 

@@ -11,6 +11,7 @@ namespace ui.animatable
     /// To be extracted to a config
     /// </summary>
     private const float AnimationDuration = 2f;
+    private const float DelayMilliSeconds = 10f;
 
     private CancellationTokenSource _cancellationTokenSource = new();
 
@@ -21,10 +22,16 @@ namespace ui.animatable
       CancellationToken token = _cancellationTokenSource.Token;
 
       int itemsCount = items.Count;
-      float baseDuration = AnimationDuration / itemsCount;
+
+      for (int i = 0; i < itemsCount; i++) {
+        items[i].CanvasGroup.alpha = 0;
+      }
+      
       for (var i = 0; i < itemsCount; i++) {
+        float itemDuration = AnimationDuration * (0 + ((float) i + 1) / itemsCount);
         token.ThrowIfCancellationRequested();
-        await items[i].CanvasGroup.DOFade(1f, baseDuration).AsyncWaitForCompletion();
+        items[i].CanvasGroup.DOFade(1f, itemDuration);
+        await Task.Delay((int)(itemDuration * DelayMilliSeconds), token);
       }
     }
 
