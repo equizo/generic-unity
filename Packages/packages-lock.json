@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.mm.editorruntimevaluespackage": {
+      "version": "https://github.com/equizo/editor-values-provider.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "622cf1c1c96c056a58c0d7664a941953b4ad8eb6"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
